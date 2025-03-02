@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Elements Overview</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Understanding HTML and CSS</h1>
+        <nav>
+            <a href="#html-elements">HTML Elements</a>
+            <a href="#css-properties">CSS Properties</a>
+            <a href="#examples">Examples</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="html-elements">
+            <h2>HTML Elements</h2>
+            <article>
+                <h3>Headings</h3>
+                <p>Use <code>&lt;h1&gt;&lt;/h1&gt;</code> to <code>&lt;h6&gt;&lt;/h6&gt;</code> for headings. <code>h1</code> is the most important, and <code>h6</code> is the least.</p>
+            </article>
+
+            <article>
+                <h3>Paragraphs</h3>
+                <p>Use <code>&lt;p&gt;&lt;/p&gt;</code> to create a paragraph. This is used for blocks of text.</p>
+            </article>
+
+            <article>
+                <h3>Links</h3>
+                <p>Use <code>&lt;a href="url"&gt;&lt;/a&gt;</code> to create hyperlinks. For example, <a href="#">this is a link</a>.</p>
+            </article>
+
+            <article>
+                <h3>Images</h3>
+                <p>Use <code>&lt;img src="image-url" alt="description"&gt;</code> to include images in your HTML.</p>
+            </article>
+
+            <article>
+                <h3>Lists</h3>
+                <p>Use <code>&lt;ul&gt;&lt;/ul&gt;</code> for unordered lists and <code>&lt;ol&gt;&lt;/ol&gt;</code> for ordered lists.</p>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Forms</h3>
+                <p>Use <code>&lt;form&gt;&lt;/form&gt;</code> to create forms for user input, containing input fields:</p>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </article>
+        </section>
+
+        <section id="css-properties">
+            <h2>CSS Properties</h2>
+            <article>
+                <h3>Color</h3>
+                <p>Use <code>color</code> to set text colors (e.g., <code>color: blue;</code>).</p>
+            </article>
+
+            <article>
+                <h3>Background Color</h3>
+                <p>Use <code>background-color</code> for element backgrounds (e.g., <code>background-color: lightblue;</code>).</p>
+            </article>
+
+            <article>
+                <h3>Margins and Padding</h3>
+                <p>Use <code>margin</code> and <code>padding</code> to create space around elements.</p>
+            </article>
+
+            <article>
+                <h3>Font Size</h3>
+                <p>Set font sizes with <code>font-size</code>. Use <code>vw</code> for responsive typography (e.g., <code>font-size: 2vw;</code>).</p>
+            </article>
+
+            <article>
+                <h3>Display</h3>
+                <p>Control how elements are rendered (<code>display: block;</code>, <code>display: inline;</code>, etc.).</p>
+            </article>
+
+            <article>
+                <h3>Flexbox</h3>
+                <p>Use Flexbox for layout with <code>display: flex;</code> to create flexible and responsive layouts.</p>
+            </article>
+
+            <article>
+                <h3>Grid</h3>
+                <p>Use CSS Grid for more complex layouts with <code>display: grid;</code>.</p>
+            </article>
+        </section>
+
+        <section id="examples">
+            <h2>Examples</h2>
+            <article>
+                <h3>Responsive Card</h3>
+                <div class="card">
+                    <h4>Card Title</h4>
+                    <p>This is a card with some content.</p>
+                    <a href="#" class="button">Read More</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 HTML and CSS Basics</p>
+    </footer>
+</body>
+</html>
