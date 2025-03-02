@@ -1,8 +1,13 @@
+ *{
+   box-sizing: border-box;
+ }
+ 
  body{
     margin: 0;
     background-image: url(colorful-gradient-digital-art-abstract-tn.jpg);
     background-size: cover;
     width: 100vw;
+    overflow-x: hidden;
 
 
  }
@@ -35,29 +40,29 @@
     position: relative;
     justify-content: left;
     margin-top: 0;
-    padding: 20px;
+    padding: 2vw;
     width: 100vw;
     flex-wrap: wrap;
-    gap: 3px;
+    gap: 3vw;
     height: auto;
     color: white;
     align-items: center;
-    font-size: 20px;
+    font-size: 2vw;
     padding-bottom: 1px;
-    border: 10px solid white;
+    border: 0.5vw solid white;
     
  }
 
  .ww{
     display: flex;
-    gap: 10vw;
+    gap: 3vw;
     flex-wrap: wrap;
     margin: 0;
     
  }
 
  a{
-    border: 7px solid blue;
+    border: 0.5vw solid blue;
     border-radius: 20%;
     width: auto;
     color: black;
@@ -68,11 +73,11 @@
     width: 100vw;
     color: beige;
     height: auto;
-    border: 7px solid bisque;
+    border: 0.6vw solid bisque;
     align-items: center;
     margin: 0;
-    padding: 20px;
-    font-size: 20px;
+    padding: 2vw;
+    font-size: 2vw;
     background-image: url(R.jpg);
     background-size: cover;
     z-index: 1000;
@@ -89,12 +94,12 @@
     overflow-wrap: break-word;
     display: flex;
     justify-content: center;
-    margin-left: 20px;
+    margin-left: 2vw;
 
      }
  .content{
     width: 100vw;
-    padding: 20px;
+    padding: 2vw;
     background-color: aquamarine;
     height: auto;
     display: flex;
